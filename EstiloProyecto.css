@@ -1,0 +1,110 @@
+/*Clases*/
+.parrafo {
+	font-size: 20px
+}
+.TextoPieImagen {
+	font-size: 16px
+}
+.TextoPiePagina {
+	font-size: 20px;
+	text-align: center;
+}
+.anclas{
+	font-size: 20px;
+	color: #483D8B;
+}
+.Link {
+	font-size: 20px;
+	color: #000000;
+}
+.Tabla{
+	font-size: 20px;
+	border: 3px #008080;
+}
+.TablaCabecera{
+	font-size: 25px;
+	background: #008080;
+	border: 3px solid #999999;
+}
+
+/*Identificadores Base de la pagina*/
+* {
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+}
+
+header, section, footer, aside, nav{
+	display: block;
+}
+
+#Agrupar {
+	width: 1000px;
+	background: #008B8B;
+	margin: 0px;
+	text-align: left;
+}
+
+	#Cabecera {
+		padding: 20px;
+	}
+
+	#Menu {
+		background: #20B2AA;
+		padding: 5px 15 px;
+		border: 3px solid #999999;
+	}
+
+	#Menu li{
+		display: inline-block;
+		list-style: none;
+		padding: 5px;
+		font: bold verdana, sans-serif;
+		/*border-radius: 0px 0px 125px 0px;*/
+	}
+	
+	#Seccion{
+		float: left;
+		width: 660px;
+		margin: 20px;
+	}
+	
+	#Columna{
+		float: left;
+		width: 260px;
+		margin: 20px 0px;
+		padding: 20px;
+		background: #66CDAA;
+	}
+	#Pie{
+		clear:both;
+		text-align: center;
+		padding:20px;
+		border-top: 4px solid #999999;
+		background: #20B2AA
+	}
+/*Identificadores Especificos*/
+#DivisorReferencias li {
+	font-size: 20px;
+}
+
+#SeccionDos{
+	float: left;
+	width: 800px;
+	margin: 20px;
+}
+#TablaDeObras{
+	width: 600px;
+}
+#TablaDeObras tr{
+	border: 3px solid #999999;
+}
+
+#TablaDeObras td{
+	border: 3px solid #0000FF;
+	background: #5F9EA0;
+}
+#TablaColAutores{
+	width: 150px;
+}
+
